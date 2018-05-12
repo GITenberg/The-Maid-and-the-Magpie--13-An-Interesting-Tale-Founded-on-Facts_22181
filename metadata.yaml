@@ -1,0 +1,27 @@
+_repo: The-Maid-and-the-Magpie--13-An-Interesting-Tale-Founded-on-Facts_22181
+_version: 0.1.0
+covers:
+- cover_type: generated
+  image_path: cover.png
+creator:
+  author:
+    agent_name: Moreton, Charles
+    gutenberg_agent_id: '25163'
+    url: http://www.gutenberg.org/2009/agents/25163
+description: ''
+gutenberg_bookshelf: Children's Picture Books
+gutenberg_issued: '2007-07-30'
+gutenberg_type: Text
+identifiers:
+  gutenberg: '22181'
+language: en
+publisher: Project Gutenberg
+rights: Public domain in the USA.
+rights_url: http://creativecommons.org/about/pdm
+subjects:
+- !lcsh 'False imprisonment -- Juvenile poetry'
+- !lcsh 'False testimony -- Juvenile poetry'
+- !lcsh 'Children''s poetry'
+- !lcc 'PZ'
+title: "The Maid and the Magpie\r\nAn Interesting Tale Founded on Facts"
+url: http://www.gutenberg.org/ebooks/22181
