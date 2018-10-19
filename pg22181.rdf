@@ -1,216 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rdf:RDF xml:base="http://www.gutenberg.org/"
-  xmlns:cc="http://web.resource.org/cc/"
-  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
   xmlns:dcam="http://purl.org/dc/dcam/"
   xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
-  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:cc="http://web.resource.org/cc/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
 >
   <pgterms:ebook rdf:about="ebooks/22181">
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/files/22181/22181-h/22181-h.htm">
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:27:04</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndf73d8a7e6c9442fbbfbde28151bab12">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47116</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:license rdf:resource="license"/>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N8e9b576331d544a2af0944d250aba96e">
-        <rdf:value>Children's poetry</rdf:value>
+      <rdf:Description rdf:nodeID="N544ff8bc8fba47aa96b5b1652b7d9e82">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+        <rdf:value>False testimony -- Juvenile poetry</rdf:value>
+      </rdf:Description>
+    </dcterms:subject>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">23</pgterms:downloads>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N9aad5286bc8f4bd788abcaca6ff83f47">
+        <rdf:value>False imprisonment -- Juvenile poetry</rdf:value>
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
       </rdf:Description>
     </dcterms:subject>
-    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">21</pgterms:downloads>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.plucker">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17998</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N0c97cd39e0e84ac7978c6f347e1428ef">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/prs.plucker</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T04:02:28.303713</dcterms:modified>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.txt.utf-8">
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Ned7d9c15e37245a3b3222e00620494bf">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=utf-8</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29332</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T15:27:26.524209</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
-    <dcterms:type>
-      <rdf:Description rdf:nodeID="Na21fb34ea85a4be697e1278033813c3d">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
-        <rdf:value>Text</rdf:value>
-      </rdf:Description>
-    </dcterms:type>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.kindle.images">
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T15:27:28.921834</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">486020</dcterms:extent>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N1bfb815749484e0dbd8d3bfb8b09a8bf">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.epub.images">
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T15:27:27.719015</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="N333211b52db84450be31bf3979bceb36">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-          </rdf:Description>
-        </dcterms:format>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">469771</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:title>The Maid and the Magpie&#13;
-An Interesting Tale Founded on Facts</dcterms:title>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:subject>
-      <rdf:Description rdf:nodeID="N0ed256713d994b1b9817704a345e8ce3">
+      <rdf:Description rdf:nodeID="Nf237b3a04e094a6894e120314147b232">
         <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCC"/>
         <rdf:value>PZ</rdf:value>
       </rdf:Description>
     </dcterms:subject>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="Ncb344d5b573e433a92fc3140d1d234ff">
-        <rdf:value>False testimony -- Juvenile poetry</rdf:value>
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-      </rdf:Description>
-    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.kindle.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/files/22181/22181-h/22181-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N5d143c678ef24fb2bfe876119c31a6b9">
+          <rdf:Description rdf:nodeID="Ne5f3f97044434cb6a62dbfc711e60568">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T15:27:28.036693</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50832</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:27:04</dcterms:modified>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">47116</dcterms:extent>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22181/22181-h.zip">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449351</dcterms:extent>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N40a288236fa94291afb2aa7e416cd94c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          <rdf:Description rdf:nodeID="N3444efc46aaf4ba3a551773995183069">
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html; charset=iso-8859-1</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">449351</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:29:25</dcterms:modified>
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N40057a7206c4478caeaf137daa533d25">
+          <rdf:Description rdf:nodeID="Nfe35d64ede924a518173453f113d40e1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:29:25</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <pgterms:bookshelf>
+      <rdf:Description rdf:nodeID="Nf660d9ed5e54429ab6df76038f76033a">
+        <dcam:memberOf rdf:resource="2009/pgterms/Bookshelf"/>
+        <rdf:value>Children's Picture Books</rdf:value>
+      </rdf:Description>
+    </pgterms:bookshelf>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.epub.images">
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:43:09.482935</dcterms:modified>
         <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">454596</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N74db8199723a425490b43177ed977062">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.kindle.noimages">
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N5f20f0d52be14d368fd1d67e97fa97c9">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">94465</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:43:10.691914</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.txt.utf-8">
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29333</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N0febb39189274f26863704538a4ca851">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:43:09.265945</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22181/22181.zip">
         <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Nc7421794c31e400eb7d6f0f634a51ce6">
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
+          <rdf:Description rdf:nodeID="N59d6bcafec8648f492f51831ef7489f1">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/zip</rdf:value>
           </rdf:Description>
         </dcterms:format>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:19:11</dcterms:modified>
-        <dcterms:format>
-          <rdf:Description rdf:nodeID="Nbe88ed1614c7485c9bd510199e88499c">
-            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
-          </rdf:Description>
-        </dcterms:format>
         <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11314</dcterms:extent>
-      </pgterms:file>
-    </dcterms:hasFormat>
-    <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.qioo">
         <dcterms:format>
-          <rdf:Description rdf:nodeID="N885a482e909a49c595cfd8899fe4db99">
+          <rdf:Description rdf:nodeID="N3bf12036941c4953ac43e1f8af163e5b">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-qioo-ebook</rdf:value>
           </rdf:Description>
         </dcterms:format>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-19T04:02:26.998995</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">73220</dcterms:extent>
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
       </pgterms:file>
     </dcterms:hasFormat>
     <dcterms:hasFormat>
       <pgterms:file rdf:about="http://www.gutenberg.org/files/22181/22181.txt">
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29332</dcterms:extent>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:19:11</dcterms:modified>
-        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ne414401fc1c74483b3039fefe5e4195e">
+          <rdf:Description rdf:nodeID="Nddfe59650ccb4e63b94f78de5512d9a2">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
             <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
           </rdf:Description>
         </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">29332</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2007-07-30T12:19:11</dcterms:modified>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:rights>Public domain in the USA.</dcterms:rights>
     <dcterms:creator>
       <pgterms:agent rdf:about="2009/agents/25163">
         <pgterms:name>Moreton, Charles</pgterms:name>
       </pgterms:agent>
     </dcterms:creator>
+    <dcterms:subject>
+      <rdf:Description rdf:nodeID="N4bd2100592d64e4eb526cb4606049380">
+        <rdf:value>Children's poetry</rdf:value>
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
+      </rdf:Description>
+    </dcterms:subject>
     <dcterms:hasFormat>
-      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.epub.noimages">
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.rdf">
         <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
-        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2010-02-16T15:27:27.213511</dcterms:modified>
-        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">33145</dcterms:extent>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">11605</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-13T05:17:02.501354</dcterms:modified>
         <dcterms:format>
-          <rdf:Description rdf:nodeID="Ndc712a8b8f194841b90a2605b820fbb9">
+          <rdf:Description rdf:nodeID="Nf354d0e8710b466d863173df9cba284b">
             <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
-            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/rdf+xml</rdf:value>
           </rdf:Description>
         </dcterms:format>
       </pgterms:file>
     </dcterms:hasFormat>
-    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-30</dcterms:issued>
-    <dcterms:subject>
-      <rdf:Description rdf:nodeID="N61b025500cd14466bacc7c124392d9ce">
-        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/LCSH"/>
-        <rdf:value>False imprisonment -- Juvenile poetry</rdf:value>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N2771df13ed6d4fc7ae28d7560a19f517">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
       </rdf:Description>
-    </dcterms:subject>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.epub.noimages">
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">17749</dcterms:extent>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nf51812d61a254b7a94127d75d61ae334">
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/epub+zip</rdf:value>
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:43:09.621926</dcterms:modified>
+      </pgterms:file>
+    </dcterms:hasFormat>
     <dcterms:language>
-      <rdf:Description rdf:nodeID="N8a551130034542e0876603e5d35e6df9">
+      <rdf:Description rdf:nodeID="N0960c3c18bff429fb5fcea352e392dd5">
         <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">en</rdf:value>
       </rdf:Description>
     </dcterms:language>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-07-30</dcterms:issued>
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="http://www.gutenberg.org/ebooks/22181.kindle.images">
+        <dcterms:isFormatOf rdf:resource="ebooks/22181"/>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-11T02:43:10.410909</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="N6c4901796ade4bfa80fa084302f89b32">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">application/x-mobipocket-ebook</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">966960</dcterms:extent>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:title>The Maid and the Magpie&#13;
+An Interesting Tale Founded on Facts</dcterms:title>
   </pgterms:ebook>
   <cc:Work rdf:about="">
-    <cc:license rdf:resource="http://www.gnu.org/licenses/gpl.html"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            http://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
   </cc:Work>
 </rdf:RDF>
